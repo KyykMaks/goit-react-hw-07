@@ -3,12 +3,10 @@ import { Contact } from "./contact";
 import css from "./contactList.module.css";
 import { selectFilteredContacts } from "../redux/contactsSlice";
 
+
 export default function ContactList() {
  
-  
   const selectorFilter = useSelector(selectFilteredContacts)
-
- 
     return (
     <div>
       <h2>Contact List</h2>
